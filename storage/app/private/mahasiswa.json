@@ -1,0 +1,164 @@
+[
+    {
+        "nama": "RESTU IRVAN PRASETYA",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450321",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 3.9,
+        "slug": "241011450321-restu-irvan-prasetya"
+    },
+    {
+        "nama": "MUHAMAD GILANG EKA PUTRA",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450675",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 4,
+        "slug": "241011450675-muhamad-gilang-eka-putra"
+    },
+    {
+        "nama": "ARNOLD DARMAWAN",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450123",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 2,
+        "slug": "241011450123-arnold-darmawan"
+    },
+    {
+        "nama": "DANU NGESTI PRASETYO",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450776",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 3.39,
+        "slug": "241011450776-danu-ngesti-prasetyo"
+    },
+    {
+        "nama": "MUHAMAD AKBAR JAELANI",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011457123",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 4,
+        "slug": "241011457123-muhamad-akbar-jaelani"
+    },
+    {
+        "nama": "ALIF NUR FADILAH",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450676",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 3.21,
+        "slug": "241011450676-alif-nur-fadilah"
+    },
+    {
+        "nama": "RIZKY REVALDO",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "251011450678",
+        "angkatan": 2025,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 2,
+        "slug": "251011450678-rizky-revaldo"
+    },
+    {
+        "nama": "AKHMAD SYAHRUL FAUZAN",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450101",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 4,
+        "slug": "241011450101-akhmad-syahrul-fauzan"
+    },
+    {
+        "nama": "GLEAN RICHARD PRIYONO",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450687",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 3.78,
+        "slug": "241011450687-glean-richard-priyono"
+    },
+    {
+        "nama": "RIZKI AKBAR PUTRA HARMAWAN",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450707",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 3.56,
+        "slug": "241011450707-rizki-akbar-putra-harmawan"
+    },
+    {
+        "nama": "AISYAH RAHMATUSSOLEHAH",
+        "jenis_kelamin": "Perempuan",
+        "nim": "241011459876",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK SIPIL",
+        "ipk": 4,
+        "slug": "241011459876-aisyah-rahmatussolehah"
+    },
+    {
+        "nama": "AULIA TASYA",
+        "jenis_kelamin": "Perempuan",
+        "nim": "241011450987",
+        "angkatan": 2024,
+        "jurusan": "SASTRA INDONESIA",
+        "ipk": 3.89,
+        "slug": "241011450987-aulia-tasya"
+    },
+    {
+        "nama": "HAURA RANA HAFIZHAH RAMADHANI",
+        "jenis_kelamin": "Perempuan",
+        "nim": "241011450159",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INDUSTRI",
+        "ipk": 4,
+        "slug": "241011450159-haura-rana-hafizhah-ramadhani"
+    },
+    {
+        "nama": "IRGI YUSUF EL KAREEM",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011458798",
+        "angkatan": 2024,
+        "jurusan": "SASTRA INGGRIS",
+        "ipk": 3.21,
+        "slug": "241011458798-irgi-yusuf-el-kareem"
+    },
+    {
+        "nama": "MUHAMAD FIKRYANSYAH ADJI",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450165",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 3.33,
+        "slug": "241011450165-muhamad-fikryansyah-adji"
+    },
+    {
+        "nama": "MUHAMMAD RIZKY FADILAH",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450627",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 2.88,
+        "slug": "241011450627-muhammad-rizky-fadilah"
+    },
+    {
+        "nama": "SATRIA BUANA",
+        "jenis_kelamin": "Laki-laki",
+        "nim": "241011450155",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 3.56,
+        "slug": "241011450155-satria-buana"
+    },
+    {
+        "nama": "VERONICA JOANNE MARVEL",
+        "jenis_kelamin": "Perempuan",
+        "nim": "241011450340",
+        "angkatan": 2024,
+        "jurusan": "TEKNIK INFORMATIKA",
+        "ipk": 4,
+        "slug": "241011450340-veronica-joanne-marvel"
+    }
+]

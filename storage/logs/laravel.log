@@ -1,0 +1,897 @@
+[2026-06-14 14:26:54] local.ERROR: Command "make:models" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:models\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at Z:/WengDev/sistem-mahasiswa/vendor/symfony/console/Application.php:759)
+[stacktrace]
+#0 Z:/WengDev/sistem-mahasiswa/vendor/symfony/console/Application.php(298): Symfony/Component/Console/Application->find('make:models')
+#1 Z:/WengDev/sistem-mahasiswa/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#2 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#3 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#4 Z:/WengDev/sistem-mahasiswa/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#5 {main}
+"} 
+[2026-06-14 14:27:46] local.ERROR: Command "make:service" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:service\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at Z:/WengDev/sistem-mahasiswa/vendor/symfony/console/Application.php:759)
+[stacktrace]
+#0 Z:/WengDev/sistem-mahasiswa/vendor/symfony/console/Application.php(298): Symfony/Component/Console/Application->find('make:service')
+#1 Z:/WengDev/sistem-mahasiswa/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#2 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#3 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#4 Z:/WengDev/sistem-mahasiswa/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#5 {main}
+"} 
+[2026-06-14 14:46:53] local.ERROR: Class "App\Http\Controllers\Storage" not found {"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Storage\" not found at Z:/WengDev/sistem-mahasiswa/app/Http/Controllers/MahasiswaController.php:176)
+[stacktrace]
+#0 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/MahasiswaController->exportJson()
+#1 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/MahasiswaController), 'exportJson')
+#2 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate/Routing/Route->runController()
+#3 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#5 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#6 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#8 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#9 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#10 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#11 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#12 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#13 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#14 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#15 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#17 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#18 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#19 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#20 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#21 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#22 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#23 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#24 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#25 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#26 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#27 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#31 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#32 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#33 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#36 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#37 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#38 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#39 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#40 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#41 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#42 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#45 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#46 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#47 Z:/WengDev/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#48 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('Z://WengDev//sist...')
+#49 {main}
+"} 
+[2026-06-14 14:47:03] local.ERROR: Class "App\Http\Controllers\Storage" not found {"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Storage\" not found at Z:/WengDev/sistem-mahasiswa/app/Http/Controllers/MahasiswaController.php:176)
+[stacktrace]
+#0 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/MahasiswaController->exportJson()
+#1 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/MahasiswaController), 'exportJson')
+#2 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate/Routing/Route->runController()
+#3 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#5 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#6 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#8 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#9 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#10 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#11 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#12 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#13 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#14 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#15 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#17 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#18 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#19 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#20 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#21 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#22 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#23 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#24 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#25 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#26 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#27 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#31 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#32 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#33 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#36 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#37 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#38 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#39 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#40 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#41 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#42 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#45 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#46 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#47 Z:/WengDev/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#48 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('Z://WengDev//sist...')
+#49 {main}
+"} 
+[2026-06-14 14:47:04] local.ERROR: Class "App\Http\Controllers\Storage" not found {"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Storage\" not found at Z:/WengDev/sistem-mahasiswa/app/Http/Controllers/MahasiswaController.php:176)
+[stacktrace]
+#0 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/MahasiswaController->exportJson()
+#1 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/MahasiswaController), 'exportJson')
+#2 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate/Routing/Route->runController()
+#3 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#5 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#6 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#8 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#9 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#10 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#11 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#12 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#13 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#14 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#15 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#17 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#18 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#19 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#20 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#21 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#22 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#23 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#24 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#25 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#26 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#27 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#31 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#32 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#33 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#36 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#37 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#38 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#39 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#40 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#41 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#42 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#45 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#46 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#47 Z:/WengDev/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#48 Z:/WengDev/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('Z://WengDev//sist...')
+#49 {main}
+"} 
+[2026-06-20 12:50:17] local.ERROR: No arguments expected for "key:" command, got "generate". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): No arguments expected for \"key:\" command, got \"generate\". at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Input/ArgvInput.php:199)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Input/ArgvInput.php(92): Symfony/Component/Console/Input/ArgvInput->parseArgument('generate')
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Input/ArgvInput.php(77): Symfony/Component/Console/Input/ArgvInput->parseToken('generate', true)
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Input/Input.php(53): Symfony/Component/Console/Input/ArgvInput->parse()
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Command/Command.php(295): Symfony/Component/Console/Input/Input->bind(Object(Symfony/Component/Console/Input/InputDefinition))
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Application.php(1117): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Illuminate/Foundation/Console/KeyGenerateCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#11 {main}
+"} 
+[2026-06-21 09:32:32] local.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/Stream/AbstractStream.php:91)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(262): Illuminate/Foundation/Bootstrap/HandleExceptions->handleError(2, 'Trying to acces...', 'E://Kuliah//semes...', 91)
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/Stream/AbstractStream.php(91): Illuminate/Foundation/Bootstrap/HandleExceptions->Illuminate/Foundation/Bootstrap/{closure}(2, 'Trying to acces...', 'E://Kuliah//semes...', 91)
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(339): Symfony/Component/Mailer/Transport/Smtp/Stream/AbstractStream->readLine()
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(186): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->getFullResponse()
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(150): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->executeCommand('RSET/r/n', Array)
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(250): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->executeCommand('RSET/r/n', Array)
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(199): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->handleAuth(Array)
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(150): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->doEhloCommand()
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(244): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->executeCommand('HELO localhost/r...', Array)
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(270): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->doHeloCommand()
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(200): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->start()
+#11 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/AbstractTransport.php(69): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->doSend(Object(Symfony/Component/Mailer/SentMessage))
+#12 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(138): Symfony/Component/Mailer/Transport/AbstractTransport->send(Object(Symfony/Component/Mime/Email), Object(Symfony/Component/Mailer/DelayedEnvelope))
+#13 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(584): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->send(Object(Symfony/Component/Mime/Email), Object(Symfony/Component/Mailer/DelayedEnvelope))
+#14 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(331): Illuminate/Mail/Mailer->sendSymfonyMessage(Object(Symfony/Component/Mime/Email))
+#15 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php(207): Illuminate/Mail/Mailer->send('emails.otp', Array, Object(Closure))
+#16 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Support/Traits/Localizable.php(19): Illuminate/Mail/Mailable->Illuminate/Mail/{closure}()
+#17 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php(200): Illuminate/Mail/Mailable->withLocale(NULL, Object(Closure))
+#18 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(353): Illuminate/Mail/Mailable->send(Object(Illuminate/Mail/Mailer))
+#19 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(300): Illuminate/Mail/Mailer->sendMailable(Object(App/Mail/OtpMail))
+#20 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/PendingMail.php(123): Illuminate/Mail/Mailer->send(Object(App/Mail/OtpMail))
+#21 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/app/Http/Controllers/AuthController.php(35): Illuminate/Mail/PendingMail->send(Object(App/Mail/OtpMail))
+#22 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/AuthController->sendOtp(Object(Illuminate/Http/Request))
+#23 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/AuthController), 'sendOtp')
+#24 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate/Routing/Route->runController()
+#25 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#26 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#27 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RedirectIfAuthenticated.php(47): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#28 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/RedirectIfAuthenticated->handle(Object(Illuminate/Http/Request), Object(Closure))
+#29 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#30 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#31 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#32 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#33 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#36 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#37 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#39 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#41 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#42 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#43 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#44 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#45 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#46 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#47 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#48 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#49 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#52 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#53 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#54 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#55 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#56 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#57 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#58 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#59 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#60 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#61 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#62 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#63 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#64 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#65 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#66 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#67 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#68 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#69 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#70 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#71 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#72 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('E://Kuliah//semes...')
+#73 {main}
+"} 
+[2026-06-21 09:39:55] local.ERROR: Failed to authenticate on SMTP server with username "username_mailtrap_anda" using the following authenticators: "CRAM-MD5", "LOGIN", "PLAIN". Authenticator "CRAM-MD5" returned "Expected response code "235" but got code "535", with message "535 5.7.0 Invalid credentials".". Authenticator "LOGIN" returned "Expected response code "334" but got empty code.". Authenticator "PLAIN" returned "Expected response code "235" but got empty code.". {"exception":"[object] (Symfony\\Component\\Mailer\\Exception\\TransportException(code: 535): Failed to authenticate on SMTP server with username \"username_mailtrap_anda\" using the following authenticators: \"CRAM-MD5\", \"LOGIN\", \"PLAIN\". Authenticator \"CRAM-MD5\" returned \"Expected response code \"235\" but got code \"535\", with message \"535 5.7.0 Invalid credentials\".\". Authenticator \"LOGIN\" returned \"Expected response code \"334\" but got empty code.\". Authenticator \"PLAIN\" returned \"Expected response code \"235\" but got empty code.\". at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php:269)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(199): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->handleAuth(Array)
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(150): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->doEhloCommand()
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(244): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->executeCommand('HELO localhost/r...', Array)
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(270): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->doHeloCommand()
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(200): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->start()
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/AbstractTransport.php(69): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->doSend(Object(Symfony/Component/Mailer/SentMessage))
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(138): Symfony/Component/Mailer/Transport/AbstractTransport->send(Object(Symfony/Component/Mime/Email), Object(Symfony/Component/Mailer/DelayedEnvelope))
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(584): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->send(Object(Symfony/Component/Mime/Email), Object(Symfony/Component/Mailer/DelayedEnvelope))
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(331): Illuminate/Mail/Mailer->sendSymfonyMessage(Object(Symfony/Component/Mime/Email))
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php(207): Illuminate/Mail/Mailer->send('emails.otp', Array, Object(Closure))
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Support/Traits/Localizable.php(19): Illuminate/Mail/Mailable->Illuminate/Mail/{closure}()
+#11 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php(200): Illuminate/Mail/Mailable->withLocale(NULL, Object(Closure))
+#12 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(353): Illuminate/Mail/Mailable->send(Object(Illuminate/Mail/Mailer))
+#13 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(300): Illuminate/Mail/Mailer->sendMailable(Object(App/Mail/OtpMail))
+#14 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/PendingMail.php(123): Illuminate/Mail/Mailer->send(Object(App/Mail/OtpMail))
+#15 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/app/Http/Controllers/AuthController.php(35): Illuminate/Mail/PendingMail->send(Object(App/Mail/OtpMail))
+#16 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/AuthController->sendOtp(Object(Illuminate/Http/Request))
+#17 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/AuthController), 'sendOtp')
+#18 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate/Routing/Route->runController()
+#19 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#20 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#21 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RedirectIfAuthenticated.php(47): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#22 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/RedirectIfAuthenticated->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#24 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#25 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#26 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#27 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#28 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#29 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#30 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#31 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#33 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#35 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#37 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#38 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#39 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#40 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#41 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#42 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#43 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#46 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#47 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#48 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#54 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#55 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#56 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#57 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#58 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#59 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#60 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#61 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#62 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#63 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#64 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#65 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#66 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('E://Kuliah//semes...')
+#67 {main}
+"} 
+[2026-06-21 09:48:57] local.ERROR: Failed to authenticate on SMTP server with username "username_mailtrap_anda" using the following authenticators: "CRAM-MD5", "LOGIN", "PLAIN". Authenticator "CRAM-MD5" returned "Expected response code "235" but got code "535", with message "535 5.7.0 Invalid credentials".". Authenticator "LOGIN" returned "Expected response code "334" but got empty code.". Authenticator "PLAIN" returned "Expected response code "235" but got empty code.". {"exception":"[object] (Symfony\\Component\\Mailer\\Exception\\TransportException(code: 535): Failed to authenticate on SMTP server with username \"username_mailtrap_anda\" using the following authenticators: \"CRAM-MD5\", \"LOGIN\", \"PLAIN\". Authenticator \"CRAM-MD5\" returned \"Expected response code \"235\" but got code \"535\", with message \"535 5.7.0 Invalid credentials\".\". Authenticator \"LOGIN\" returned \"Expected response code \"334\" but got empty code.\". Authenticator \"PLAIN\" returned \"Expected response code \"235\" but got empty code.\". at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php:269)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(199): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->handleAuth(Array)
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(150): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->doEhloCommand()
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(244): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->executeCommand('HELO localhost/r...', Array)
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(270): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->doHeloCommand()
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(200): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->start()
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/AbstractTransport.php(69): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->doSend(Object(Symfony/Component/Mailer/SentMessage))
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(138): Symfony/Component/Mailer/Transport/AbstractTransport->send(Object(Symfony/Component/Mime/Email), Object(Symfony/Component/Mailer/DelayedEnvelope))
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(584): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->send(Object(Symfony/Component/Mime/Email), Object(Symfony/Component/Mailer/DelayedEnvelope))
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(331): Illuminate/Mail/Mailer->sendSymfonyMessage(Object(Symfony/Component/Mime/Email))
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php(207): Illuminate/Mail/Mailer->send('emails.otp', Array, Object(Closure))
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Support/Traits/Localizable.php(19): Illuminate/Mail/Mailable->Illuminate/Mail/{closure}()
+#11 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php(200): Illuminate/Mail/Mailable->withLocale(NULL, Object(Closure))
+#12 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(353): Illuminate/Mail/Mailable->send(Object(Illuminate/Mail/Mailer))
+#13 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(300): Illuminate/Mail/Mailer->sendMailable(Object(App/Mail/OtpMail))
+#14 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Mail/PendingMail.php(123): Illuminate/Mail/Mailer->send(Object(App/Mail/OtpMail))
+#15 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/app/Http/Controllers/AuthController.php(35): Illuminate/Mail/PendingMail->send(Object(App/Mail/OtpMail))
+#16 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/AuthController->sendOtp(Object(Illuminate/Http/Request))
+#17 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/AuthController), 'sendOtp')
+#18 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate/Routing/Route->runController()
+#19 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#20 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#21 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RedirectIfAuthenticated.php(47): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#22 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/RedirectIfAuthenticated->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#24 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#25 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#26 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#27 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#28 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#29 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#30 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#31 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#33 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#35 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#37 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#38 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#39 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#40 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#41 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#42 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#43 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#46 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#47 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#48 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#54 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#55 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#56 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#57 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#58 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#59 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#60 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#61 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#62 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#63 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#64 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#65 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#66 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('E://Kuliah//semes...')
+#67 {main}
+"} 
+[2026-06-21 11:12:58] local.ERROR: Call to undefined method App\Http\Controllers\MahasiswaController::emailJson() {"userId":2,"exception":"[object] (Error(code: 0): Call to undefined method App\\Http\\Controllers\\MahasiswaController::emailJson() at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:46)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/MahasiswaController), 'emailJson')
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate/Routing/Route->runController()
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(63): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure))
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#11 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#12 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#13 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#14 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#15 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#16 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#18 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#20 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#21 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#22 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#23 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#24 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#25 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#26 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#29 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#30 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#31 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#33 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#35 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#37 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#39 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#41 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#42 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#43 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#44 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#45 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#46 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#47 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#48 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#49 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('E://Kuliah//semes...')
+#50 {main}
+"} 
+[2026-06-21 11:22:17] local.ERROR: Route [mahasiswa.email] not defined. (View: E:\Kuliah\semester 3\algoritma\project akhir\sistem-mahasiswa\resources\views\mahasiswa\index.blade.php) {"userId":2,"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Route [mahasiswa.email] not defined. (View: E:\\Kuliah\\semester 3\\algoritma\\project akhir\\sistem-mahasiswa\\resources\\views\\mahasiswa\\index.blade.php) at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:534)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Illuminate/View/Engines/CompilerEngine->handleViewException(Object(Symfony/Component/Routing/Exception/RouteNotFoundException), 1)
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate/View/Engines/PhpEngine->evaluatePath('E://Kuliah//semes...', Array)
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate/View/Engines/CompilerEngine->get('E://Kuliah//semes...', Array)
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate/View/View->render()
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate/Http/Response->setContent(Object(Illuminate/View/View))
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate/Http/Response->__construct(Object(Illuminate/View/View), 200, Array)
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate/Routing/Router::toResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Routing/Router->prepareResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#11 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#12 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#13 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(63): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#14 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure))
+#15 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#16 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#18 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#20 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#21 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#23 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#25 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#28 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#29 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#30 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#31 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#32 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#33 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#37 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#39 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#40 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#41 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#42 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#46 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#48 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#53 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#54 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#55 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#56 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('E://Kuliah//semes...')
+#57 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [mahasiswa.email] not defined. at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:534)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): Illuminate/Routing/UrlGenerator->route('mahasiswa.email', Array, true)
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/storage/framework/views/3442e787f469575785e85e095a11cbf7.php(39): route('mahasiswa.email')
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('E://Kuliah//semes...')
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::Illuminate/Filesystem/{closure}()
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate/Filesystem/Filesystem->getRequire('E://Kuliah//semes...', Array)
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate/View/Engines/PhpEngine->evaluatePath('E://Kuliah//semes...', Array)
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate/View/Engines/CompilerEngine->get('E://Kuliah//semes...', Array)
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate/View/View->render()
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate/Http/Response->setContent(Object(Illuminate/View/View))
+#11 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate/Http/Response->__construct(Object(Illuminate/View/View), 200, Array)
+#12 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate/Routing/Router::toResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#13 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Routing/Router->prepareResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#14 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#15 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#16 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(63): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#18 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#20 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#22 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#24 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#25 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#31 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#32 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#33 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#34 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#35 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#36 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#37 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#38 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#39 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#41 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#42 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#46 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#48 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#54 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#55 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#56 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#57 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#58 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#59 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#60 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('E://Kuliah//semes...')
+#61 {main}
+"} 
+[2026-06-21 11:23:46] local.ERROR: Route [mahasiswa.email] not defined. (View: E:\Kuliah\semester 3\algoritma\project akhir\sistem-mahasiswa\resources\views\mahasiswa\index.blade.php) {"userId":1,"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Route [mahasiswa.email] not defined. (View: E:\\Kuliah\\semester 3\\algoritma\\project akhir\\sistem-mahasiswa\\resources\\views\\mahasiswa\\index.blade.php) at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:534)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Illuminate/View/Engines/CompilerEngine->handleViewException(Object(Symfony/Component/Routing/Exception/RouteNotFoundException), 1)
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate/View/Engines/PhpEngine->evaluatePath('E://Kuliah//semes...', Array)
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate/View/Engines/CompilerEngine->get('E://Kuliah//semes...', Array)
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate/View/View->render()
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate/Http/Response->setContent(Object(Illuminate/View/View))
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate/Http/Response->__construct(Object(Illuminate/View/View), 200, Array)
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate/Routing/Router::toResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Routing/Router->prepareResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#11 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#12 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#13 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(63): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#14 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure))
+#15 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#16 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#18 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#20 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#21 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#23 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#25 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#28 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#29 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#30 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#31 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#32 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#33 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#37 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#39 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#40 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#41 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#42 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#46 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#48 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#53 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#54 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#55 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#56 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('E://Kuliah//semes...')
+#57 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [mahasiswa.email] not defined. at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:534)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): Illuminate/Routing/UrlGenerator->route('mahasiswa.email', Array, true)
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/storage/framework/views/3442e787f469575785e85e095a11cbf7.php(39): route('mahasiswa.email')
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('E://Kuliah//semes...')
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::Illuminate/Filesystem/{closure}()
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate/Filesystem/Filesystem->getRequire('E://Kuliah//semes...', Array)
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate/View/Engines/PhpEngine->evaluatePath('E://Kuliah//semes...', Array)
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate/View/Engines/CompilerEngine->get('E://Kuliah//semes...', Array)
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate/View/View->render()
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate/Http/Response->setContent(Object(Illuminate/View/View))
+#11 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate/Http/Response->__construct(Object(Illuminate/View/View), 200, Array)
+#12 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate/Routing/Router::toResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#13 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Routing/Router->prepareResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#14 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#15 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#16 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(63): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#18 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#20 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#22 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#24 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#25 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#31 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#32 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#33 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#34 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#35 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#36 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#37 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#38 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#39 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#41 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#42 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#46 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#48 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#54 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#55 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#56 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#57 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#58 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#59 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#60 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('E://Kuliah//semes...')
+#61 {main}
+"} 
+[2026-06-21 11:46:38] local.ERROR: PHP Parse error: Syntax error, unexpected '=' on line 1 {"exception":"[object] (Psy\\Exception\\ParseErrorException(code: 0): PHP Parse error: Syntax error, unexpected '=' on line 1 at E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/psy/psysh/src/Exception/ParseErrorException.php:44)
+[stacktrace]
+#0 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/psy/psysh/src/CodeCleaner.php(657): Psy/Exception/ParseErrorException::fromParseError(Object(PhpParser/Error))
+#1 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/psy/psysh/src/CodeCleaner.php(273): Psy/CodeCleaner->parse('<?php try {  = ...', false)
+#2 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/psy/psysh/src/Shell.php(1364): Psy/CodeCleaner->clean(Array, false)
+#3 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/psy/psysh/src/Shell.php(1471): Psy/Shell->appendCode('try {  = //Barry...', true, false)
+#4 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/psy/psysh/src/Shell.php(2180): Psy/Shell->setCode('try {  = //Barry...', true)
+#5 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/tinker/src/Console/TinkerCommand.php(77): Psy/Shell->execute('try {  = //Barry...')
+#6 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel/Tinker/Console/TinkerCommand->handle()
+#7 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::Illuminate/Container/{closure}()
+#8 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#9 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#10 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#11 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate/Container/Container->call(Array)
+#12 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Command/Command.php(341): Illuminate/Console/Command->execute(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#13 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#14 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Application.php(1117): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#15 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Laravel/Tinker/Console/TinkerCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#16 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#17 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#18 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#19 E:/Kuliah/semester 3/algoritma/project akhir/sistem-mahasiswa/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#20 {main}
+"} 
